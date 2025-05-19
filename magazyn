@@ -1,11 +1,3 @@
-using System.Data.SqlTypes;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
 class Product
     {
         public string Nazwa;
@@ -21,9 +13,7 @@ class Product
     }
 
 List<Product> storage = new List<Product>();
-{
-
-    while (true)
+while (true)
     {
         Console.WriteLine("1. Dodaj produkt");
         Console.WriteLine("2. Usun produkt");
@@ -106,4 +96,3 @@ List<Product> storage = new List<Product>();
 
         }
     }
-}
